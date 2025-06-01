@@ -1,81 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Paradigm Classes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-  <!-- ========== HEADER SECTION ========== -->
+  <!-- HEADER -->
   <header>
-    <h1>Paradigm Classes</h1>
-    <p>Shaping Minds for a Better Future</p>
+    <div class="container">
+      <h1>Paradigm Classes</h1>
+      <p>Shaping Minds for a Better Future</p>
+    </div>
   </header>
 
-  <!-- ========== ABOUT US SECTION ========== -->
-  <section>
-    <h2>About Us</h2>
-    <p>Paradigm Classes offers offline coaching for Classes 9 to 12 with a strong focus on PCM and Computer Science. We also prepare students for competitive exams like JEE Main, NEET, NDA, and CUET with expert faculty and personalized guidance.</p>
-  </section>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#exams">Exams</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <!-- ========== COURSES OFFERED ========== -->
-  <section>
-    <h2>Courses Offered</h2>
-    <div class="courses">
-      <div class="card">Class 9 - PCM + CS</div>
-      <div class="card">Class 10 - PCM + CS</div>
-      <div class="card">Class 11 - PCM + CS</div>
-      <div class="card">Class 12 - PCM + CS</div>
+  <!-- WHY CHOOSE US -->
+  <section class="why-us">
+    <div class="container">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Expert Faculty with Years of Experience</li>
+        <li>Personalized Guidance for Each Student</li>
+        <li>Comprehensive Notes & Mock Tests</li>
+        <li>Interactive Offline Learning Environment</li>
+      </ul>
     </div>
   </section>
 
-  <!-- ========== EXAM PREPARATION SECTION ========== -->
-  <section>
-    <h2>Exam Preparation</h2>
-    <div class="exams">
-      <div class="card">JEE Main</div>
-      <div class="card">NEET</div>
-      <div class="card">NDA</div>
-      <div class="card">CUET</div>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Paradigm Classes</h2>
+      <p>We offer offline coaching for Classes 9 to 12 in PCM and Computer Science. Prepare for JEE Main, NEET, NDA, and CUET with top educators and an effective learning environment.</p>
     </div>
   </section>
 
-  <!-- ========== CONTACT SECTION ========== -->
-    <section>
-    <h2>Contact Us</h2>
-    <p>📞 9627242349<br>📧 shneh9627@gmail.com</p>
-    <p><strong>Location:</strong> Visit us for a free counseling session!</p>
-    <iframe
-        src="https://www.google.com/maps?q=7WWP+F42,+Shimla+Bypass+Rd,+Jhewaredi,+Arcadia+Grant,+Uttarakhand+248007&output=embed"
-        allowfullscreen
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        style="width: 100%; height: 300px; border: 0;"
-    ></iframe>
-    </section>
-
-
-  <!-- ========== REGISTRATION FORM ========== -->
-  <section>
-    <h2>Student Registration Form</h2>
-    <form action="https://formspree.io/f/mqkrawrg" method="POST">
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <input type="text" name="class" placeholder="Class (e.g. 10, 12)" required>
-      <textarea name="message" placeholder="Your Message or Subject Interest" rows="4"></textarea>
-      <button type="submit">Register</button>
-    </form>
+  <!-- COURSES -->
+  <section id="courses">
+    <div class="container">
+      <h2>Courses Offered</h2>
+      <div class="grid">
+        <div class="card">Class 9 - PCM + CS</div>
+        <div class="card">Class 10 - PCM + CS</div>
+        <div class="card">Class 11 - PCM + CS</div>
+        <div class="card">Class 12 - PCM + CS</div>
+      </div>
+    </div>
   </section>
 
-  <!-- ========== WHATSAPP BUTTON ========== -->
-  <a class="whatsapp-button" href="https://wa.me/919627242349" target="_blank" title="Chat with us on WhatsApp">💬</a>
+  <!-- EXAMS -->
+  <section id="exams">
+    <div class="container">
+      <h2>Exam Preparation</h2>
+      <div class="grid">
+        <div class="card">JEE Main</div>
+        <div class="card">NEET</div>
+        <div class="card">NDA</div>
+        <div class="card">CUET</div>
+      </div>
+    </div>
+  </section>
 
-  <!-- ========== FOOTER SECTION ========== -->
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> 9627242349</p>
+      <p><strong>Email:</strong> shneh9627@gmail.com</p>
+      <p><strong>Visit us:</strong> Shimla Bypass Rd, Jhewaredi, Arcadia Grant, Uttarakhand 248007</p>
+      <iframe src="https://www.google.com/maps?q=7WWP%2BF42,+Shimla+Bypass+Rd,+Jhewaredi,+Arcadia+Grant,+Uttarakhand+248007&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </section>
+
+  <!-- REGISTRATION -->
+  <section id="register">
+    <div class="container">
+      <h2>Register Now</h2>
+      <form action="https://formspree.io/f/mqkrawrg" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="text" name="class" placeholder="Class (e.g. 10, 12)" required>
+        <textarea name="message" placeholder="Your Message or Subject Interest" rows="4"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- WHATSAPP -->
+  <a class="whatsapp-button" href="https://wa.me/919627242349" target="_blank">💬</a>
+
+  <!-- FOOTER -->
   <footer>
-    &copy; 2025 Paradigm Classes. All rights reserved.
+    <div class="container">
+      &copy; 2025 Paradigm Classes. All rights reserved.
+    </div>
   </footer>
 </body>
+
 </html>
