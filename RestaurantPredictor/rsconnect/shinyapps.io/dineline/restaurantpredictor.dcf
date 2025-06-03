@@ -1,0 +1,10 @@
+name: restaurantpredictor
+title:
+username: dineline
+account: dineline
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14811160
+bundleId: 10348312
+url: https://dineline.shinyapps.io/restaurantpredictor/
+version: 1
